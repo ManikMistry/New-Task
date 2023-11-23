@@ -1,0 +1,510 @@
+.nav-bar{
+    display: flex;
+    height: 17vh;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.main-page{
+    height: 83vh;
+    width: 96%;
+}
+
+.logo img{
+    margin-top: 34px;
+    margin-left: 72px;
+}
+.box1{
+    position: relative;
+    top: 60px;
+    right: 145px;
+    /* border: 2px solid gray; */
+    background-color: white;
+    height: 49px;
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0px 1px 6px gray;
+}
+.box1 p{
+    width: 191px;
+    text-align: left;
+    position: relative;
+    left: 4px;
+}
+.box1 img{
+    height: inherit;
+    position: relative;
+    left: 3px;
+}
+
+.box2{
+    height: 49px;
+    /* border: 1px solid; */
+    width: 15px;
+    position: relative;
+    left: 112px;
+    right: 10;
+    width: 60px;
+    background-color: white;
+    top: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 6px gray;
+    cursor: pointer;
+}
+ .box2 img{
+    height: 34px;
+    position: relative;
+    top: 9px;
+ }
+
+
+ .main-page {
+    display: flex;
+    width: 100%;
+  }
+  
+  .container1 {
+    width: 33%;
+    background-color: white;
+    border-right: 2px solid gray;
+  }
+  
+
+  
+
+  
+  .profile-section{
+    height: 198px;
+    box-shadow: 0px 1px 11px 0px #dbdbdb;
+  }
+
+  .profile-section img{
+    position: relative;
+    height: 100px;
+    border-radius: 50%;
+    top: 21px;
+  }
+
+  .name{
+    top: 26px;
+    position: relative;
+    margin: 0;
+    font-weight: bold;
+  }
+
+  .name img{
+    position: relative;
+    height: 13px;
+    top: 2px;
+    left: 6px;
+  }
+  .mail{
+    margin: 0;
+    position: relative;
+    top: 31px;
+    font-size: 14px;
+  }
+
+  
+  .menu-items {
+    margin-top: 30px;
+  }
+  
+  .Item1 {
+    display: flex;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 17px;
+    border: 1px solid #ededed;
+    border-radius: 0px 14px 14px 0px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    color: #000;
+    z-index: 1;
+  }
+  
+  .Item1:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%; /* Start the background color outside the element on the left */
+    width: 100%;
+    height: 100%;
+    background-color: #8fcdef;
+    box-shadow: 0px 2px 5px 0px #d3b1b1;
+    transition: left 0.5s ease-in-out;
+    z-index: -1;
+  }
+  
+  .Item1:hover:before {
+    left: 0;
+  }
+  
+  
+  .button-container{
+    position: relative;
+    top: 157px;
+  }
+
+  .button-container button{
+    position: relative;
+    width: 100%;
+    height: 53px;
+    border: none;
+    color: #015b81;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #e6f4ff;
+  }
+
+
+  .Item1 img{
+    height: 20px;
+    position: lef;
+    position: relative;
+    left: 20px;
+    top: 15px;
+  }
+
+  .Item1 P{
+    position: relative;
+    left: 32px;
+  }
+
+  .container2 {
+    background-color: #FFF; /* Second container color */
+    width: 233%;
+  }
+
+  .Header-container2{
+    /* background-color: #8fcdef; */
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .text{
+    width: 45em;
+    text-align: left;
+    position: relative;
+    left: 70px;
+    top: 24px;
+    font-size: 17px;
+    font-weight: bold;
+    word-spacing: 2px;
+  }
+
+  .b-container {
+    display: flex;
+    border-radius: 50px;
+    border: 1px solid;
+    overflow: hidden;
+    margin: 27px;
+    width: 260px;
+}
+  
+  .tab-button1 {
+    flex: 1;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 45px;
+    background-color: #8fcdef;
+    border-radius: 0; 
+    transition: background-color 0.3s ease-in-out; 
+  
+  }
+  .tab-button2 {
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    height: 45px;
+    border-radius: 0; 
+  
+  }
+  
+  #monthly-tab {
+    border-radius: 50px; 
+  }
+  
+  
+  #annually-tab {
+    border-radius: 50px; 
+  }
+  
+  .tab-button:hover {
+    background-color: #75bcd7; 
+  }
+  
+  .Card1-container2{
+  
+    display: flex;
+    height: 388px;
+  }
+  .Card2-container2{
+  
+    display: flex;
+    height: 280px;
+  }
+
+
+  /* Card */
+  .card {
+    margin: 13px 0px 0px 68px;
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    height: 22em;
+  }
+  
+  .card-heading {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .price-line {
+    display: flex;
+    align-items: baseline;
+    margin-top: 10px;
+  }
+  
+  .price {
+    font-size: 0.8em;
+  }
+  
+  .red-line {
+    width: 23%;
+    position: relative;
+    height: 1px;
+    background-color: red;
+    transform: rotate(9deg);
+    margin-left: -67px;
+    bottom: 3px;
+  }
+  
+  .larger-price {
+    font-size: 1.4em;
+    margin-top: 10px;
+  }
+  
+  .get-started-button2 {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #FF4500;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .get-started-button3 {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #FF69B4;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .arrow {
+    margin-left: 5px;
+  }
+  
+  .divider-line {
+    margin-top: 15px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .features {
+    margin-top: 15px;
+  }
+  
+  .feature-heading {
+    font-weight: bold;
+  }
+  
+  .card-i{
+    display: flex;
+    height: 27px;
+  }
+  .card-i p{
+    position: relative;
+    left: 10px;
+    margin: 10px;
+  }
+  .card-i img{
+    height: 15px;
+    position: relative;
+    top: 10px;
+  }
+
+  .footer-text p{
+    font-size: 15px;
+    margin: 0;
+    font-weight: 500;
+    position: relative;
+    top: 23px;
+    left: 35px;
+    text-decoration: underline;
+  }
+
+
+  /* CARD2 */
+  .card2 {
+    width: 564px;
+    margin-top: 41px;
+    margin-left: 70px;
+    height: 230px;
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f0f8ea;
+  }
+  
+  .left-side {
+    flex: 1;
+    padding: 20px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); /* Text shadow for better visibility */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .green-text1 {
+    background-color: #7FFF00;
+    border-radius: 15px;
+    height: 30px;
+    width: 114px;
+    text-align: center;
+  }
+  .green-text2 {
+    background-color: #20B2AA;
+    border-radius: 15px;
+    height: 30px;
+    width: 114px;
+    text-align: center;
+  }
+  .green-text1 p{
+    position: relative;
+    margin-top: 19px;
+    top: 6px;
+  }
+  .green-text2 p{
+    position: relative;
+    margin-top: 19px;
+    top: 6px;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  
+  .get-started-button1 {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgb(247, 247, 86);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .arrow {
+    margin-left: 5px;
+  }
+  
+  .right-side {
+    flex: 1;
+    padding: 20px;
+    text-align: left; /* Align text to the left */
+  }
+  
+  .what-you-get {
+    margin-bottom: 15px;
+  }
+  .get-started-button4 {
+    margin-top: 15px;
+    padding: 10px;
+    background-color:#7FFF00;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .get-started-button5 {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #20B2AA;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .container3 {
+    
+    display: flex;
+    width: 11%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+  .Notification-icon{
+    top: 15px;
+    position: relative;
+    left: 21px;
+    background-color: #ffffff;
+    height: 67px;
+    width: 55px;
+    border-radius: 10px 0px 0px 10px;
+  }
+  .Notification-icon img{
+    height: 35px;
+    position: relative;
+    /* right: 0px; */
+    left: 3px;
+    top: 17px;
+    cursor: pointer;
+  }
+  .white-box{
+    background-color: #ffffff;
+    height: 130px;
+    width: 46px;
+    position: relative;
+    left: 30px;
+    border-radius: 10px 0px 0px 10px;
+    margin-bottom: 35px;
+  }
+  .add-icon{
+    background-color: #3dc3eb;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    left: 26px;
+    bottom: 17px;
+  }
+
+  .add-icon img{
+    height: 35px;
+    position: relative;
+    /* right: -5px; */
+    top: 20px;
+    left: 1px;
+    top: 9px;
+    cursor: pointer;
+  }
